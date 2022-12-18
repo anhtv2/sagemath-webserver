@@ -1,4 +1,4 @@
-FROM sagemath/sagemath-jupyter:latest
+FROM sagemath/sagemath-jupyter
 
 RUN sudo apt-get update
 RUN sudo apt-get install git -y
