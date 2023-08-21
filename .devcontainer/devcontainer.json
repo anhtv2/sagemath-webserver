@@ -1,0 +1,5 @@
+{
+    "name": "Sagemath Container",
+    "image": "sagemath/sagemath:latest",
+    "postAttachCommand": "sage -n jupyter"
+}
