@@ -1,6 +1,6 @@
 {
     "name": "Sagemath Container",
     "image": "sagemath/sagemath:latest",
-    "postCreateCommand": "mkdir /workspaces/${REPO_NAME}/hihi"
+    "postCreateCommand": "mkdir ${CODESPACE_VSCODE_FOLDER}/hihi",
     "postAttachCommand": "sage -n jupyter"
 }
